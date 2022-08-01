@@ -69,3 +69,12 @@
   right: 1rem;
   color: rgb(15, 104, 104);
 }
+
+@media screen and (max-width: 600px) {
+  #reset {
+    width: auto;
+    height: auto;
+    padding: 0.5rem;
+    margin: 1rem;
+  }
+}

@@ -1,0 +1,64 @@
+/* variables */
+:root {
+  --cell-height: 8vw;
+  --cell-width: 8vw;
+}
+
+* {
+  overflow: hidden;
+  font-family: "Trispace", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+#title {
+  width: 100vw;
+  height: 3rem;
+  line-height: 3rem;
+  color: #fff;
+  background-color: #000;
+  margin-bottom: 1rem;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+}
+
+#game {
+  width: 100vw;
+  height: 90vh;
+  display: inline-grid;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  margin: auto auto 1rem auto;
+  justify-content: center;
+}
+
+.cell {
+  width: var(--cell-width);
+  height: var(--cell-height);
+  margin: auto;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+#status {
+  margin: 1rem;
+}
+
+#reset {
+  width: calc(var(--cell-width) * 2);
+  height: calc(var(--cell-height) / 2);
+  padding: 0.5rem;
+  margin: 1rem;
+}

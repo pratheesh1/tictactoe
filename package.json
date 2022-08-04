@@ -6,14 +6,15 @@
   "scripts": {
     "build": "tsc",
     "lint": "npx eslint",
-    "start": "build && index.html"
+    "dev": "tsc --watch"
   },
   "keywords": [],
   "author": "Pratheesh Soman",
-  "license": "MIT",
+  "license": "GPL-3.0-or-later",
   "devDependencies": {
     "eslint": "^8.19.0",
-    "prettier": "2.7.1"
+    "prettier": "2.7.1",
+    "typescript": "^4.7.4"
   },
   "dependencies": {}
 }
